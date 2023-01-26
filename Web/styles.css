@@ -44,3 +44,21 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+#headerTop {
+  text-align: center;
+  font-size: 300%;
+}
+
+div.newRow {
+  width: 100%;
+}
+
+div.column-1-1 {
+  width: 100%;
+}
+
+h2 {
+  font-size: 150%;
+  text-align: left;
+}

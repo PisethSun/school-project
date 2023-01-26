@@ -1,0 +1,7 @@
+/*CSS for Logs Page.HTML*/
+table{
+    float:left;
+}
+table, th, td{
+    border:1px solid black;
+}
