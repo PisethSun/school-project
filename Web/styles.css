@@ -8,6 +8,15 @@ body {
   color: black;
   background-color: white;
 }
+#container {
+  background-color: thistle;
+  height: 550px;
+  width: 800px;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
 
 nav {
   display: flex;
@@ -34,6 +43,28 @@ nav a {
 nav a[aria-current='page'] {
   color: #000;
   background-color: #d4d4d4;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #eee;
+}
+
+footer a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
 }
 
 main {
