@@ -6,6 +6,7 @@
 body {
   height: 100px;
   width: 1200px;
+  background-color: white;
 
   margin-right: auto;
   margin-left: auto;
@@ -34,6 +35,15 @@ body {
   margin-left: auto;
   background-color: lightskyblue;
   color: white;
+}
+#container2 {
+  border-top: 2cm;
+  height: 600px;
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: gray;
+  color: black;
 }
 #banner .menu {
   display: flex;
@@ -158,9 +168,10 @@ body {
 }
 
 #FormDiv {
+  margin-top: 120px;
   width: 500px;
-  background-color: #fff;
-  box-shadow: 0 0 20px 0 tomato;
+  background-color: white;
+  box-shadow: 0 0 20px 0 purple;
   top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -177,13 +188,12 @@ form {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 14px;
-  border: 1px solid tomato;
+  border: 1px solid purple;
   outline: none;
+  content: '*';
+  color: black;
 }
-.textarea-field {
-  height: 150px;
-  padding-top: 10px;
-}
+
 .Submit1 {
   border-radius: 20px;
   color: #fff;
