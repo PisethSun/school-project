@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100px;
+  width: 1200px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#banner {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+}
+
+#container {
+  height: 790px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+}
+#banner .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  height: 70px;
+}
+
+#banner .MySign span {
+  padding-left: 10px;
+  color: tomato;
+}
+
+#banner .MySign {
+  color: #dedce1;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 0px 25px;
+}
+.menu ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #dedce1;
+  font-size: 20px;
+}
+
+.menu ul li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: tomato;
+  top: 110%;
+  left: 0;
+  border-radius: 5px;
+  transition: 0.4s;
+  transform: scale(0);
+}
+.menu ul li a:hover::after {
+  transform: scale(1);
+}
+
+.HomeA {
+  text-decoration: none;
+}
+.inforText {
+  height: 685px;
+  width: 500px;
+  padding: 0 5%;
+  padding-top: 20%;
+  float: left;
+}
+#photo {
+  height: 660px;
+  width: 700px;
+  padding: 0 8%;
+  padding-top: 1%;
+  float: left;
+  background-image: url('aboutmepic.png');
+  border-radius: 50%;
+}
+
+#footer {
+  height: 190px;
+  width: 1200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.nav ul li {
+  padding-left: 50%;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding-right: 60px;
+  padding-top: 55px;
+}
+#footer ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #dedce1;
+  font-size: 20px;
+}
+
+#footer ul li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: tomato;
+  top: 110%;
+  left: 0;
+  border-radius: 5px;
+  transition: 0.4s;
+  transform: scale(0);
+}
+#footer ul li a:hover::after {
+  transform: scale(1);
+}
+
+/*  Myport CSS */
+
+.ContentTitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#FormDiv {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 tomato;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 14px;
+  border: 1px solid tomato;
+  outline: none;
+}
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+.Submit1 {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 18px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+
+/* End My Port CSS */
