@@ -16,8 +16,8 @@ body {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 #container {
@@ -25,7 +25,7 @@ body {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background-color: lightskyblue;
+  background-color: white;
   color: white;
 }
 #container1 {
@@ -55,7 +55,7 @@ body {
 
 #banner .MySign span {
   padding-left: 10px;
-  color: purple;
+  color: red;
 }
 
 #banner .MySign {
@@ -76,7 +76,7 @@ body {
   position: relative;
   display: block;
   text-decoration: none;
-  color: #dedce1;
+  color: #black;
   font-size: 20px;
 }
 
@@ -119,7 +119,7 @@ body {
 #footer {
   height: 190px;
   width: 1200px;
-  background-color: black;
+  background-color: white;
   color: white;
   text-align: center;
 }
@@ -140,7 +140,7 @@ body {
   position: relative;
   display: block;
   text-decoration: none;
-  color: #dedce1;
+  color: black;
   font-size: 20px;
 }
 
@@ -149,7 +149,7 @@ body {
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: tomato;
+  background-color: purple;
   top: 110%;
   left: 0;
   border-radius: 5px;
@@ -188,13 +188,13 @@ form {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 14px;
-  border: 1px solid purple;
+  border: 1px solid black;
   outline: none;
   content: '*';
   color: black;
 }
 
-.Submit1 {
+.LOGIN {
   border-radius: 20px;
   color: #fff;
   margin-top: 18px;
@@ -208,3 +208,11 @@ form {
 }
 
 /* Speech of Text */
+#overlay {
+  width: 80%;
+  margin: 3% auto;
+  height: 95vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+  color: green;
+}
