@@ -180,6 +180,10 @@ body {
 }
 form {
   margin: 35px;
+  height: 350px;
+}
+label {
+  color: black;
 }
 
 .input-field {
