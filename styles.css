@@ -295,3 +295,21 @@ input[type='submit']:hover {
 * {
   box-sizing: border-box;
 }
+#Meetings_Log {
+  color: black;
+  border-color: red;
+}
+
+tr {
+  color: black;
+  border-color: #47c35a;
+}
+
+th {
+  color: black;
+  border-color: #47c35a;
+}
+td {
+  color: black;
+  border-color: #47c35a;
+}
