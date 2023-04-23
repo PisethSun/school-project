@@ -29,12 +29,13 @@ body {
 
 #container {
   height: 790px;
-  width: 1200px;
+  width: 2000px;
   margin-right: auto;
   margin-left: auto;
   background-color: white;
   color: white;
 }
+
 #container1 {
   height: 790px;
   width: 1100px;
@@ -174,6 +175,17 @@ body {
   text-transform: uppercase;
 }
 
+#FormDivContact {
+  margin-top: 290px;
+  width: 500px;
+  height: 650px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 purple;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
 #FormDiv {
   margin-top: 290px;
   width: 500px;
