@@ -296,15 +296,14 @@ button[type='submit']:hover {
 }
 
 tr {
-  color: black;
-  border-color: #47c35a;
+  border: 2px solid red;
 }
 
 th {
   color: black;
-  border-color: #47c35a;
+  border: 2px solid red;
 }
 td {
   color: black;
-  border-color: #47c35a;
+  border: 2px solid red;
 }
