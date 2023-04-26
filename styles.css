@@ -36,6 +36,7 @@ body {
   margin-left: auto;
   background-color: lightskyblue;
   color: white;
+  margin: 30px;
 }
 #container2 {
   border-top: 2cm;
@@ -181,7 +182,7 @@ body {
 }
 
 #FormDiv {
-  margin-top: 290px;
+  margin-top: 350px;
   width: 500px;
   height: 750px;
   background-color: white;
