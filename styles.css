@@ -66,7 +66,7 @@ body {
   background-color: transparent;
   padding-top: 20px;
   border-radius: 20px;
-  border-color: purple;
+
   border-style: groove;
 }
 #rightcontainersch {
@@ -223,14 +223,14 @@ body {
 }
 /* This is Log In Form  */
 #FormDivLogin {
-  margin-top: 350px;
+  margin-top: 250px;
   width: 500px;
-  height: 650px;
+  height: 670px;
   background-color: white;
   box-shadow: 0 0 10px 0 purple;
   top: 19%;
   left: 50%;
-  transform: translate(-10%, -50%);
+  transform: translate(-50%, -50%);
   position: absolute;
 }
 /* Update Setting  */
@@ -268,7 +268,7 @@ body {
 
 /* This is Sign up Form  */
 #FormDivSignup {
-  margin-top: 350px;
+  margin-top: 250px;
   width: 500px;
   height: 670px;
   background-color: white;
