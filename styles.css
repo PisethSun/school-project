@@ -218,11 +218,23 @@ body {
   transform: translate(-50%, -50%);
   position: absolute;
 }
-
-#FormDiv {
+/* This is Log In Form  */
+#FormDivLogin {
   margin-top: 350px;
   width: 500px;
-  height: 750px;
+  height: 650px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 purple;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+/* This is Sign up Form  */
+#FormDivSignup {
+  margin-top: 350px;
+  width: 500px;
+  height: 670px;
   background-color: white;
   box-shadow: 0 0 10px 0 purple;
   top: 19%;
