@@ -27,6 +27,7 @@ body {
   margin-left: auto; */
   background-color: white;
   color: white;
+  padding-top: 30px;
 }
 
 #container1 {
@@ -59,12 +60,13 @@ body {
 }
 
 #containerSched {
-  border-top: 2cm;
   height: 700px;
   width: 1200px;
-  background-color: #9384d1;
+  background-color: transparent;
   padding-top: 20px;
   border-radius: 20px;
+  border-color: purple;
+  border-style: groove;
 }
 #rightcontainersch {
   height: 310px;
