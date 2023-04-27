@@ -415,18 +415,27 @@ td {
   border: solid 20px;
   border-color: transparent black transparent transparent;
   float: left;
+  margin-left: 20px;
+}
+.triangle2 {
+  width: 0;
+  height: 0;
+  border: solid 20px;
+  border-color: transparent transparent transparent black;
+  float: left;
+  margin-left: 20px;
 }
 .SchButtom2 {
   width: 290px;
   height: 40px;
-  margin-top: 20px;
+  margin-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 14px;
   border: 1px solid black;
   outline: none;
   color: black;
-  margin-left: 50px;
+  margin-left: 30px;
   font-size: medium;
   float: left;
 }
