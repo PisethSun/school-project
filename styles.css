@@ -230,8 +230,25 @@ body {
   box-shadow: 0 0 10px 0 purple;
   top: 19%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
   position: absolute;
+}
+/* Update Setting  */
+#FormDivSetting {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 500px;
+  height: 650px;
+  background-color: white;
+
+  /* box-shadow: 0 0 10px 0 purple; */
+  border: #000 solid;
+  /* top: 19%;
+  left: 50%; */
+  /* transform: translate(0%, -50%); */
+  position: absolute;
+  float: left;
+  border-radius: 2em;
 }
 /* This is Sign up Form  */
 #FormDivSignup {
