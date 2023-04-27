@@ -223,11 +223,24 @@ body {
 }
 /* This is Log In Form  */
 #FormDivLogin {
+  border-radius: 5px;
   margin-top: 250px;
   width: 500px;
   height: 670px;
   background-color: white;
-  box-shadow: 0 0 10px 0 purple;
+  box-shadow: 0 0 10px 0 black;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+#FormDivreset {
+  border-radius: 5px;
+  margin-top: 250px;
+  width: 500px;
+  height: 670px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 black;
   top: 19%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -249,6 +262,7 @@ body {
   position: absolute;
   float: left;
   border-radius: 2em;
+  box-shadow: 0 0 10px 0 black;
 }
 #FormDivSetting2 {
   margin-top: 5px;
@@ -268,11 +282,12 @@ body {
 
 /* This is Sign up Form  */
 #FormDivSignup {
+  border-radius: 5px;
   margin-top: 250px;
   width: 500px;
   height: 670px;
   background-color: white;
-  box-shadow: 0 0 10px 0 purple;
+  box-shadow: 0 0 10px 0 black;
   top: 19%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -284,7 +299,7 @@ body {
   height: 650px;
   background-color: white;
   margin-left: 100px;
-
+  box-shadow: 0 0 10px 0 black;
   /* box-shadow: 0 0 10px 0 purple; */
   border: #000 solid;
   /* top: 19%;
