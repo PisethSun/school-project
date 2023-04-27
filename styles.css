@@ -48,35 +48,42 @@ body {
   color: black;
 }
 #leftcontainersch {
-  height: 495px;
+  height: 500px;
   width: 500px;
-  margin: 40px;
+  /* margin: 40px; */
+  margin-left: 20px;
   background-color: beige;
   color: black;
-  border-radius: 1cm;
+  border-radius: 20px;
   float: left;
 }
 
 #containerSched {
   margin: 40px;
   border-top: 2cm;
-  height: 600px;
-  width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 700px;
+  width: 1200px;
   background-color: #9384d1;
   padding-top: 20px;
-  border-radius: 1cm;
+  border-radius: 20px;
 }
 #rightcontainersch {
-  height: 495px;
-  width: 500px;
-  margin: 40px;
-  background-color: beige;
-  color: black;
-  border-radius: 1cm;
+  height: 310px;
+  width: 310px;
+  background-color: black;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+}
+#rightmostcontainersch {
+  height: 310px;
+  width: 310px;
+  margin-left: 20px;
+  background-color: green;
+  border-radius: 20px;
   float: left;
 }
+
 #banner .menu {
   display: flex;
   justify-content: space-between;
