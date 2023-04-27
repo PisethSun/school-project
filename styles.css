@@ -71,10 +71,11 @@ body {
 #rightcontainersch {
   height: 310px;
   width: 310px;
-  background-color: black;
+  background-color: transparent;
   border-radius: 20px;
   float: left;
   margin-left: 20px;
+  border: #000 solid;
 }
 #rightmostcontainersch {
   height: 310px;
@@ -266,6 +267,7 @@ label {
   content: '*';
   color: black;
 }
+/* css Middle box Schedule  */
 .SchButtom {
   width: 290px;
   height: 40px;
@@ -277,6 +279,36 @@ label {
   outline: none;
   color: black;
   margin-left: 10px;
+  font-size: medium;
+}
+
+.SchButtom {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(5, 5, 5);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.SchButtom:hover {
+  background-color: rgb(240, 236, 10);
+}
+
+.SchButtom:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .LOGIN {
