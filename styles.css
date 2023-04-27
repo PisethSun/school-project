@@ -236,7 +236,7 @@ body {
 /* Update Setting  */
 #FormDivSetting {
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 60px;
   width: 500px;
   height: 650px;
   background-color: white;
@@ -250,6 +250,22 @@ body {
   float: left;
   border-radius: 2em;
 }
+#FormDivSetting2 {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 500px;
+  height: 650px;
+
+  /* box-shadow: 0 0 10px 0 purple; */
+
+  /* top: 19%;
+  left: 50%; */
+  /* transform: translate(0%, -50%); */
+
+  float: left;
+  border-radius: 2em;
+}
+
 /* This is Sign up Form  */
 #FormDivSignup {
   margin-top: 350px;
@@ -261,6 +277,22 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+}
+#FormDivSetting3 {
+  margin-top: 5px;
+  width: 500px;
+  height: 650px;
+  background-color: white;
+  margin-left: 100px;
+
+  /* box-shadow: 0 0 10px 0 purple; */
+  border: #000 solid;
+  /* top: 19%;
+  left: 50%; */
+  /* transform: translate(0%, -50%); */
+
+  float: left;
+  border-radius: 2em;
 }
 form {
   margin: 35px;
