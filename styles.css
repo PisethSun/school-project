@@ -81,9 +81,10 @@ body {
   height: 310px;
   width: 310px;
   margin-left: 20px;
-  background-color: green;
+  background-color: transparent;
   border-radius: 20px;
   float: left;
+  border: #000 solid;
 }
 
 #banner .menu {
@@ -303,7 +304,7 @@ label {
 }
 
 .SchButtom:hover {
-  background-color: rgb(240, 236, 10);
+  background-color: rgb(10, 240, 133);
 }
 
 .SchButtom:active {
