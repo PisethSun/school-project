@@ -53,10 +53,11 @@ body {
   width: 500px;
   /* margin: 40px; */
   margin-left: 20px;
-  background-color: beige;
+  background-color: transparent;
   color: black;
   border-radius: 20px;
   float: left;
+  border: #000 solid;
 }
 
 #containerSched {
@@ -405,4 +406,27 @@ td {
 }
 #copyright {
   color: black;
+}
+
+/* Triangle Buttom */
+.triangle {
+  width: 0;
+  height: 0;
+  border: solid 20px;
+  border-color: transparent black transparent transparent;
+  float: left;
+}
+.SchButtom2 {
+  width: 290px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 14px;
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  margin-left: 50px;
+  font-size: medium;
+  float: left;
 }
