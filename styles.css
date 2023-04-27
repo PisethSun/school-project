@@ -412,7 +412,7 @@ td {
 .triangle {
   width: 0;
   height: 0;
-  border: solid 20px;
+  border: solid 20px transparent;
   border-color: transparent black transparent transparent;
   float: left;
   margin-left: 20px;
