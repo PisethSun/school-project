@@ -266,6 +266,18 @@ label {
   content: '*';
   color: black;
 }
+.SchButtom {
+  width: 290px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 14px;
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  margin-left: 10px;
+}
 
 .LOGIN {
   border-radius: 20px;
