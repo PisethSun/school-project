@@ -211,11 +211,12 @@ body {
 }
 
 #FormDivContact {
+  border-radius: 5px;
   margin-top: 320px;
   width: 900px;
   height: 760px;
   background-color: white;
-  box-shadow: 0 0 10px 0 purple;
+  box-shadow: 0 0 10px 0 black;
   top: 19%;
   left: 50%;
   transform: translate(-50%, -50%);
