@@ -225,15 +225,17 @@ body {
 /* This is Log In Form  */
 #FormDivLogin {
   border-radius: 5px;
-  margin-top: 250px;
+  /* margin-top: 250px; */
   width: 500px;
   height: 670px;
   background-color: white;
   box-shadow: 0 0 10px 0 black;
-  top: 19%;
+  /* top: 19%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   position: absolute;
+  margin-top: 0px;
+  margin-left: 320px;
 }
 #FormDivreset {
   border-radius: 5px;
@@ -283,16 +285,26 @@ body {
 
 /* This is Sign up Form  */
 #FormDivSignup {
-  border-radius: 5px;
+  /* border-radius: 5px;
   margin-top: 250px;
   width: 500px;
   height: 670px;
   background-color: white;
   box-shadow: 0 0 10px 0 black;
-  top: 19%;
+
+  position: absolute; */
+  border-radius: 5px;
+  /* margin-top: 250px; */
+  width: 500px;
+  height: 670px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 black;
+  /* top: 19%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   position: absolute;
+  margin-top: 0px;
+  margin-left: 320px;
 }
 #FormDivSetting3 {
   margin-top: 5px;
