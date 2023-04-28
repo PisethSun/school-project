@@ -433,6 +433,7 @@ input[type='submit'] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  content: '*' red;
 }
 
 input[type='submit']:hover {
@@ -504,3 +505,5 @@ td {
   font-size: medium;
   float: left;
 }
+
+/* Place Holder *  */
