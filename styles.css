@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 100px;
+  height: 100vh;
   width: 1200px;
   background-color: white;
 
@@ -520,10 +520,11 @@ td {
   float: left;
 }
 
+.need-help-wrapper {
+  padding-bottom: 100px;
+}
 .need-help {
   background-color: #000;
-  /* width: 100px; */
-  height: 200px;
   padding: 15px;
   color: white;
   text-decoration: none;
