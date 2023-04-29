@@ -519,3 +519,13 @@ td {
   font-size: medium;
   float: left;
 }
+
+.need-help {
+  background-color: #000;
+  /* width: 100px; */
+  height: 200px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+}
