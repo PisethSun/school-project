@@ -530,3 +530,57 @@ td {
   text-decoration: none;
   border-radius: 50px;
 }
+#First-Speech {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 4px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#First-Speech2 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 4px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#First-Speech3 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 4px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#First-Speech4 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 4px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
