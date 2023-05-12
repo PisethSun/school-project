@@ -470,19 +470,20 @@ button[type='submit']:hover {
 #Meetings_Log {
   color: black;
   border-color: red;
+  border-collapse: collapse;
 }
 
 tr {
-  border: 2px solid red;
+  border: 1px solid red;
 }
 
 th {
   color: black;
-  border: 2px solid red;
+  border: 1px solid red;
 }
 td {
   color: black;
-  border: 2px solid red;
+  border: 1px solid red;
 }
 #copyright {
   color: black;
